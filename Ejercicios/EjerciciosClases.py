@@ -152,35 +152,48 @@ print(nq2018)
 # simple llamada "quinta" que toma x y devuelve
 # la quinta potencia de x. No se necesitan init
 # o atributos de clase.
-
 # Finalmente llame a su función con el número 5
-
 # y asígnela a la variable ans.
 
-
 class myfunc:
-    #Num=3
-    #Pot=5
-    #def __init__ (self,numero,potencia):
-        #self.Num= numero
-        #self.Pot = potencia
-    def quinta(self):
+    def quinta(n):
+        n5 = (n**5)
+        return n5
+        
+ans=myfunc.quinta(5)
+print(ans)
+
+# NO tener en cuenta el siguiente programa aunque funcione, solo es una prueba
+class myfunc:
+    def quinta(n):
         quinta = (n**5)
         return quinta
         
-ans = myfunc(5)
+ans = myfunc.quinta(5)
 print(ans)
 
-
 # EJERCICIO 8
-Ahora hagamos algunos cambios en la clase que creamos en el ejercicio anterior de Python.
+#Ahora hagamos algunos cambios en la clase que creamos
+# en el ejercicio anterior de Python.
+#Primero haga su función para que tome los
+# parámetros: x e y. x será el número que se eleva,
+# e será la potencia. ¡Entonces, los usuarios pueden elevar los números a cualquier potencia! También cambiemos el nombre de la función a "ElevarAlaPotencia".
+#También agreguemos una representación de cadena rápidamente,
+# de modo que cuando un usuario imprima la clase obtenga una
+# descripción significativa.
+#Puede ser algo como: Esta clase consistirá en operaciones
+# matemáticas. Solo tenemos una función llamada
+# ElevarAlaPotencia.
 
-Primero haga su función para que tome los parámetros: x e y. x será el número que se eleva, e será la potencia. ¡Entonces, los usuarios pueden elevar los números a cualquier potencia! También cambiemos el nombre de la función a "ElevarAlaPotencia".
-
-También agreguemos una representación de cadena rápidamente, de modo que cuando un usuario imprima la clase obtenga una descripción significativa.
-
-Puede ser algo como: Esta clase consistirá en operaciones matemáticas. Solo tenemos una función llamada ElevarAlaPotencia.
-
-# SEGUIR CON LOS EJERCICIOS HASTA EL 8!!!!
-
-# REVISAR LOS DOS EJERCICIOS DE COLECCIONES. ES POSIBLE QUE TAMBIÉN PUEDAN HACERSE COMO CLASES, PERO ES MÁS DIFÍCIL
+class myfunc:
+    def ElevarAlaPotencia(x,y):
+        elevar = (x**y)
+        return elevar
+            
+    def __str__(self):
+        return ('Esta clase consistirá en operaciones matemáticas. Solo tenemos una función llamada ElevarAlaPotencia.')
+        
+ans=myfunc.ElevarAlaPotencia(2,4)
+print(ans)
+texto=myfunc.__str__(0) # Obligatoriamente hay que indicarle una posición. Como esta función solo tiene un argumento, podemos darle cualquier valor (en este caso le damos 0).
+print(texto)
