@@ -1,8 +1,9 @@
-# Escribir tres números
+# Algoritmo 10: escribir tres números
+
 #print("Ingrese el primer número")
-num1=input("Ingrese el primer número: "+"\n")
+num1=input("Ingrese el segundo número: \n")
 #print("Ingrese el segundo número")
-num2=input("Ingrese el segundo número: "+"\n")
+num2=input("Ingrese el segundo número: \n")
 #print("Ingrese el tercer número")
 num3=input("Ingrese el tercer número: "+"\n")
 try:

@@ -6,7 +6,7 @@ print("Hola, mundo!")
 
 #EJERCICIO 2 #A partir de un número ingresado diga si es mayor, menor o igual a 9.
 N=0
-print("Escriba un número:")
+print("Escriba un número:") #N=input("Escriba un número: ")
 if(N.isdigit()):
     N=int(input())
     if(N==9):

@@ -14,7 +14,7 @@ suma=0
 nro=2
 while (nro<=100):
     #if(nro%2==0):
-     suma+=nro
+    suma+=nro
     #FinSi    
     nro=nro+2
 #FinWhile

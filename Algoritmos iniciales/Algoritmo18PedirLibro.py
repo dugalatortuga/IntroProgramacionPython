@@ -1,0 +1,7 @@
+print("Ir a la biblioteca.")
+print("Coger el libro elegido.")
+print("Acercarse al mostrador.")
+print("Entregar el libro al bibliotecario.")
+print("Entregar el carnet de la biblioteca.")
+print("Comprobar la fecha de devolución.")
+print("Salir de la biblioteca.")

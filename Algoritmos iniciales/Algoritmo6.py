@@ -1,4 +1,4 @@
-#Algoritmo 6 Divisores de un número
+#Algoritmo 6: Divisores de un número
 nro=input("Ingrese un número:")
 if(nro.isdigit()):
     nro=int(nro)

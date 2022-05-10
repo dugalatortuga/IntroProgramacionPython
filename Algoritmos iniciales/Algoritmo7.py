@@ -1,7 +1,7 @@
 # Algoritmo 7. Aprobado o suspenso.
 
 #print("Ingrese calificación 1")
-##cal1=input()
+#cal1=input()
 cal1=input("Inserte la primera calificación: ")
 cal2=input("Inserte la primera calificación: ")
 cal3=input("Inserte la primera calificación: ")

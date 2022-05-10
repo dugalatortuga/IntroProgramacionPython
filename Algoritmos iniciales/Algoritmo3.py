@@ -1,5 +1,7 @@
 #Algoritmo 3
-#print("Ingrese un número")
+
+# nro=0
+# print("Ingrese un número")
 nro=input("Ingrese un número:")
 if(nro.isdigit()):
     nro=int(nro)
